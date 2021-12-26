@@ -18,7 +18,7 @@ In scripts folder
 ./systematically_run.sh <peptide SEQUENCE>
  ```
   
-After the command was run, the gromacs topology file (.top), gro structure (.gro), and position restraint file (.itp) will be deposited in a new folder named C<G (repeat i times>\<SEQUENCE\><G (repeat j times)>s (ex. CGGKTKEGs)
+After the command was run, the gromacs topology file (.top), gro structure (.gro), and position restraint file (.itp) will be deposited in a new folder named C<G (repeat i times)>\<SEQUENCE\><G (repeat j times)>s (ex. CGGKTKEGs)
 
 ## Example
 The example folder shows the content after running 
