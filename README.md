@@ -10,7 +10,7 @@ cyclize peptides using glycindel scaffolding method
 * If you installed GROAMCS with version > 5. Please prepend the gromacs-related command with gmx (ex. grompp, pdb2gmx, editconf, mdrun)
 * change the prot.pdb to be the PDB structure that contains your sequence of interest
 * change the text in seq file to be the sequence in lower case of prot.pdb
-* At the top of systematically_run.sh, change the range of i and j according to the number of Glycines you want to append on the left/right of the peptide
+* At the top of systematically_run.sh, change the range of i and j according to the number of Glycines you want to append on the left and right side of the peptide
 
 ## Command
 ```
