@@ -1,17 +1,18 @@
-# gmx-cyclize
-cyclize peptides using glycindel scaffolding method
+# Backbone linkage of cyclic peptides
+Backbone cyclization of peptides head-to-tail. 
+Used in the glycindel scaffolding method of "Hsueh et al." (Optimizing epitope conformational ensembles using $\alpha$-synuclein cyclic peptide ``glycindel'' scaffolds: A method for generating oligomer-selective antibodies for Parkinson's disease)
 
-## pre-requite
+## pre-requisites
 * GROMACS
 * Scwrl4
 
 ## Before you run
-In scripts folder
+In scripts folder:
 * Change the [Path to Scwrl4 executable] in run2.sh to your installed path.
-* If you installed GROAMCS with version > 5. Please prepend the gromacs-related command with gmx (ex. grompp, pdb2gmx, editconf, mdrun)
+* If you installed GROAMCS with version 5 or greater, please prepend the gromacs-related command with gmx (ex. grompp, pdb2gmx, editconf, mdrun)
 * Change the prot.pdb to be the PDB structure that contains your sequence of interest
 * Change the text in seq file to be the sequence in lower case of prot.pdb
-* At the top of systematically_run.sh, change the range of i and j according to the number of Glycines you want to append on the left and right side of the peptide
+* At the top of systematically_run.sh, change the range of i and j according to the number of Glycines you want to append on the left (i) and right side (j) of the peptide
 
 ## Command
 ```
