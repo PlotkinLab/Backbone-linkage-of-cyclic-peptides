@@ -19,11 +19,15 @@ In scripts folder:
 ./systematically_run.sh <peptide SEQUENCE>
  ```
   
-After the command was run, the gromacs topology file (.top), gro structure (.gro), and position restraint file (.itp) will be deposited in a new folder named C<G (repeat i times)>\<SEQUENCE\><G (repeat j times)>s (ex. CGGKTKEGs)
+After the command is run, there are 3 file outputs:
+* The gromacs topology file (.top), 
+* The gro structure (.gro), 
+* The position restraint file (.itp) 
+These will be deposited in a new folder named C<G (repeat i times)>\<SEQUENCE\><G (repeat j times)>s (for example: CGGKTKEGs)
 
 ## Example
 The example folder shows the content after running 
  ```
 ./systematically_run.sh KTKE
  ```
-The prot.pdb contains the alphasynuclein structure (chain A of the PDB entry 2N0A), and the seq file contain the corresponding sequence. The variable i and j in systematically_run.sh file are 2 and 1, respectively, so the sequence after glycindel process is CGGKTKEG. The files for GROMACS MD simulation are deposited in CGGKTKEGs.
+In this example, the prot.pdb contains the alphasynuclein structure (chain A of the PDB entry 2N0A), and the seq file contains the corresponding sequence (KTKE). The variables i and j in systematically_run.sh file are 2 and 1, respectively, so the sequence after glycindel process is CGGKTKEG. The files for GROMACS MD simulation are deposited in a folder named "CGGKTKEGs".
