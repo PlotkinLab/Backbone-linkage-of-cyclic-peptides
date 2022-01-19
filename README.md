@@ -1,6 +1,6 @@
 # Backbone linkage of cyclic peptides
 Backbone cyclization of peptides head-to-tail. 
-Used in the glycindel scaffolding method of "Hsueh et al." (Optimizing epitope conformational ensembles using $\alpha$-synuclein cyclic peptide ``glycindel'' scaffolds: A method for generating oligomer-selective antibodies for Parkinson's disease)
+Used in the glycindel scaffolding method of "Hsueh et al." (Optimizing epitope conformational ensembles using alpha-synuclein cyclic peptide ``glycindel'' scaffolds: A method for generating oligomer-selective antibodies for Parkinson's disease)
 
 ## pre-requisites
 * GROMACS
